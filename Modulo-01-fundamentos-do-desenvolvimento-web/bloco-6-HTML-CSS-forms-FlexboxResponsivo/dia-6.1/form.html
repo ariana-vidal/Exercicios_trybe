@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Formulário</legend>
+            <legend for="nome">Digite seu nome:</legend> 
+            <input id="nome" type="text" name="Nome" maxlength="40" required>
+            
+            <legend for="Email">Digite seu email:</legend> 
+            <input type="text" name="Email" maxlength="50" required>
+            
+            <legend for="CPF">Digite seu CPF:</legend> 
+            <input type="text" name="CPF" maxlength="11" required>
+            
+            <legend for="Endereço">Digite seu endereço:</legend>
+            <input type="text" name="Endereço" maxlength="200" required>
+            
+            <legend for="Cidade">Digite sua Cidade:</legend>
+            <input type="text" name="Cidade" maxlength="28" required>
+            <select name="Estado" id="estados" required> 
+                <option>Selecione seu estado</option>
+            </select>
+            
+            
+        </fieldset>
+    </form>
+    
+    <script src='script.js'></script>
+</body>
+</html>
