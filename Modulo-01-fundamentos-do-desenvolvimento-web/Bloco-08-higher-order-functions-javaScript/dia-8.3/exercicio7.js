@@ -66,4 +66,4 @@ function authorWith3DotsOnName() {
     book.author.name.split(' ').filter((word) => word.endsWith('.')).length === 3
   )).name;
 }
-console.log(authorWith3DotsOnName())
+console.log(authorWith3DotsOnName());
